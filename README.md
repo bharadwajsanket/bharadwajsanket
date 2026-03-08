@@ -10,7 +10,7 @@
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=ffffff&labelColor=000000)](https://sanketbharadwaj.vercel.app)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=9d7aff&labelColor=000000)](https://www.linkedin.com/in/sanket-bharadwaj-a041b6311)&nbsp;
-[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=000000)](https://github.com/Sanket-Bharadwaj)
+[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=000000)](https://github.com/bharadwajsanket)
 
 <br/>
 
