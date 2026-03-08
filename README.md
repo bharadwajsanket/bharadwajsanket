@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d0a1a,100:000000&height=200&section=header&text=SANKET%20BHARADWAJ&fontSize=48&fontColor=ffffff&fontAlignY=55&animation=fadeIn&desc=Systems%20Engineer%20%C2%B7%20Language%20Designer%20%C2%B7%20Algorithm%20Enthusiast&descSize=14&descAlignY=75&descFontColor=9d7aff&stroke=1a0a2e&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0a3a,100:000000&height=200&section=header&text=SANKET%20BHARADWAJ&fontSize=48&fontColor=ffffff&fontAlignY=55&animation=fadeIn&desc=Systems%20Engineer%20%C2%B7%20Language%20Designer%20%C2%B7%20Algorithm%20Enthusiast&descSize=14&descAlignY=75&descFontColor=9d7aff&stroke=1a0a2e&strokeWidth=2" width="100%"/>
 
 <br/>
 
@@ -12,6 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=9d7aff&labelColor=000000)](https://www.linkedin.com/in/sanket-bharadwaj-a041b6311)&nbsp;
 [![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=000000)](https://github.com/Sanket-Bharadwaj)
 
+<br/>
 
 </div>
 
@@ -262,4 +263,4 @@ Open to conversations on &nbsp;`systems design` · `algorithms` · `infrastructu
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d0a1a,100:000000&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a0a3a,100:000000&height=100&section=footer" width="100%"/>
