@@ -1,0 +1,105 @@
+<svg width="100%" height="480" viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="bp-grid-major" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#D4D2CB" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="bp-grid-minor" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M 12 0 L 0 0 0 12" fill="none" stroke="#E0DED8" stroke-width="0.4"/>
+    </pattern>
+    <radialGradient id="ambient-l" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#8B6914" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#F5F4F0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ink-glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Drafting paper base -->
+  <rect width="1200" height="480" fill="#F5F4F0"/>
+  <rect width="1200" height="480" fill="url(#bp-grid-minor)"/>
+  <rect width="1200" height="480" fill="url(#bp-grid-major)"/>
+  <rect width="1200" height="480" fill="url(#ambient-l)"/>
+
+  <!-- Frame -->
+  <rect x="24" y="24" width="1152" height="432" fill="none" stroke="#D4D2CB" stroke-width="1"/>
+  <!-- Corner marks -->
+  <path d="M 24 44 L 24 24 L 44 24" fill="none" stroke="#B0AEA6" stroke-width="1.2"/>
+  <path d="M 1156 44 L 1156 24 L 1136 24" fill="none" stroke="#B0AEA6" stroke-width="1.2"/>
+  <path d="M 24 436 L 24 456 L 44 456" fill="none" stroke="#B0AEA6" stroke-width="1.2"/>
+  <path d="M 1156 436 L 1156 456 L 1136 456" fill="none" stroke="#B0AEA6" stroke-width="1.2"/>
+
+  <!-- Center reference marks -->
+  <line x1="600" y1="24" x2="600" y2="36" stroke="#B0AEA6" stroke-width="0.8"/>
+  <line x1="600" y1="444" x2="600" y2="456" stroke="#B0AEA6" stroke-width="0.8"/>
+  <line x1="24" y1="240" x2="36" y2="240" stroke="#B0AEA6" stroke-width="0.8"/>
+  <line x1="1164" y1="240" x2="1176" y2="240" stroke="#B0AEA6" stroke-width="0.8"/>
+  <circle cx="600" cy="240" r="2" fill="none" stroke="#B0AEA6" stroke-width="0.8"/>
+  <line x1="594" y1="240" x2="588" y2="240" stroke="#B0AEA6" stroke-width="0.6"/>
+  <line x1="606" y1="240" x2="612" y2="240" stroke="#B0AEA6" stroke-width="0.6"/>
+  <line x1="600" y1="234" x2="600" y2="228" stroke="#B0AEA6" stroke-width="0.6"/>
+  <line x1="600" y1="246" x2="600" y2="252" stroke="#B0AEA6" stroke-width="0.6"/>
+
+  <!-- Hidden: #include <stdio.h> -->
+  <text x="48" y="38" font-family="monospace" font-size="8.5" fill="#D4D2CB" opacity="0.9">#include &lt;stdio.h&gt; // ref: workshop.h</text>
+
+  <!-- Name -->
+  <text x="600" y="210"
+    font-family="monospace"
+    font-size="62"
+    font-weight="400"
+    letter-spacing="8"
+    fill="#1A1916"
+    text-anchor="middle"
+    filter="url(#ink-glow)">SANKET BHARADWAJ</text>
+
+  <!-- Underline rule -->
+  <line x1="200" y1="228" x2="1000" y2="228" stroke="#D4D2CB" stroke-width="1"/>
+  <line x1="200" y1="223" x2="200" y2="233" stroke="#B0AEA6" stroke-width="0.8"/>
+  <line x1="1000" y1="223" x2="1000" y2="233" stroke="#B0AEA6" stroke-width="0.8"/>
+  <text x="600" y="243" font-family="monospace" font-size="8" fill="#B0AEA6" text-anchor="middle">← 800px →</text>
+
+  <text x="600" y="278"
+    font-family="monospace"
+    font-size="12"
+    letter-spacing="4"
+    fill="#B0AEA6"
+    text-anchor="middle">builds things to understand them</text>
+
+  <!-- Right annotation -->
+  <g transform="translate(920, 130)" font-family="monospace" font-size="9" fill="#B0AEA6">
+    <circle cx="80" cy="60" r="26" fill="none" stroke="#D4D2CB" stroke-width="0.8"/>
+    <circle cx="80" cy="60" r="2" fill="#8B6914" opacity="0.5"/>
+    <line x1="80" y1="86" x2="80" y2="110" stroke="#D4D2CB" stroke-width="0.6" stroke-dasharray="2 3"/>
+    <text x="80" y="123" text-anchor="middle" fill="#B0AEA6">ref ①</text>
+    <text x="80" y="56" text-anchor="middle" font-size="9" fill="#D4D2CB">0x7C00</text>
+    <text x="80" y="68" text-anchor="middle" font-size="7.5" fill="#D4D2CB" opacity="0.7">bootloader</text>
+    <rect x="130" y="30" width="110" height="70" fill="none" stroke="#D4D2CB" stroke-width="0.6"/>
+    <line x1="130" y1="43" x2="240" y2="43" stroke="#D4D2CB" stroke-width="0.5"/>
+    <text x="138" y="40" font-size="8" fill="#B0AEA6" font-weight="bold">SPEC</text>
+    <text x="138" y="57" font-size="8.5" fill="#B0AEA6">x86 / C99 / ASM</text>
+    <text x="138" y="72" font-size="8.5" fill="#B0AEA6">POSIX / Linux</text>
+    <text x="138" y="87" font-size="8.5" fill="#B0AEA6">vyom compiler</text>
+  </g>
+
+  <!-- Left annotation -->
+  <g transform="translate(50, 130)" font-family="monospace" font-size="9" fill="#B0AEA6">
+    <line x1="0" y1="40" x2="120" y2="40" stroke="#D4D2CB" stroke-width="0.6"/>
+    <line x1="0" y1="70" x2="100" y2="70" stroke="#D4D2CB" stroke-width="0.6"/>
+    <line x1="0" y1="100" x2="90" y2="100" stroke="#D4D2CB" stroke-width="0.6"/>
+    <text x="0" y="37" font-size="8" fill="#B0AEA6">compilers</text>
+    <text x="0" y="67" font-size="8" fill="#B0AEA6">kernels</text>
+    <text x="0" y="97" font-size="8" fill="#B0AEA6">filesystems</text>
+    <circle cx="120" cy="40" r="1.5" fill="none" stroke="#B0AEA6" stroke-width="0.7"/>
+    <circle cx="100" cy="70" r="1.5" fill="none" stroke="#B0AEA6" stroke-width="0.7"/>
+    <circle cx="90" cy="100" r="1.5" fill="none" stroke="#B0AEA6" stroke-width="0.7"/>
+  </g>
+
+  <!-- Bottom bar -->
+  <line x1="24" y1="420" x2="1176" y2="420" stroke="#D4D2CB" stroke-width="0.8"/>
+  <text x="36" y="440" font-family="monospace" font-size="8.5" fill="#B0AEA6">bharadwajsanket</text>
+  <text x="600" y="440" font-family="monospace" font-size="8.5" fill="#8B6914" text-anchor="middle" opacity="0.7">·</text>
+  <text x="1140" y="440" font-family="monospace" font-size="8.5" fill="#D4D2CB" text-anchor="end" opacity="0.8">53 41 4E 4B 45 54</text>
+  <text x="1148" y="458" font-family="monospace" font-size="7.5" fill="#D4D2CB" text-anchor="end">DWG-001 / REV-A</text>
+</svg>
