@@ -27,6 +27,11 @@
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+
+    <!-- Clip window for the live signal trace -->
+    <clipPath id="sig-window">
+      <rect x="200" y="320" width="800" height="40"/>
+    </clipPath>
   </defs>
 
   <!-- Base — near black -->
@@ -156,6 +161,20 @@
     <circle cx="100" cy="70" r="1.5" fill="none" stroke="#2A2A2E" stroke-width="0.7"/>
     <circle cx="90" cy="100" r="1.5" fill="none" stroke="#2A2A2E" stroke-width="0.7"/>
   </g>
+
+  <!-- ─────────────────────────────────────────────── -->
+  <!-- LIVE SIGNAL TRACE — animated clock waveform, reads as instrumentation -->
+  <text x="200" y="312" font-family="monospace" font-size="8" fill="#2A2A2E" letter-spacing="1">SIG // 8MHz CLK</text>
+  <line x1="200" y1="340" x2="1000" y2="340" stroke="#161618" stroke-width="0.5" stroke-dasharray="1 3"/>
+  <g clip-path="url(#sig-window)">
+    <path d="M152,349 L176,349 L176,331 L200,331 L200,349 L224,349 L224,331 L248,331 L248,349 L272,349 L272,331 L296,331 L296,349 L320,349 L320,331 L344,331 L344,349 L368,349 L368,331 L392,331 L392,349 L416,349 L416,331 L440,331 L440,349 L464,349 L464,331 L488,331 L488,349 L512,349 L512,331 L536,331 L536,349 L560,349 L560,331 L584,331 L584,349 L608,349 L608,331 L632,331 L632,349 L656,349 L656,331 L680,331 L680,349 L704,349 L704,331 L728,331 L728,349 L752,349 L752,331 L776,331 L776,349 L800,349 L800,331 L824,331 L824,349 L848,349 L848,331 L872,331 L872,349 L896,349 L896,331 L920,331 L920,349 L944,349 L944,331 L968,331 L968,349 L992,349 L992,331 L1016,331 L1016,349 L1048,349"
+      fill="none" stroke="#C8A96E" stroke-width="1.1" opacity="0.55" filter="url(#brass-glow)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-48 0" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <!-- End-of-trace ticks, like an oscilloscope readout bezel -->
+  <line x1="200" y1="320" x2="200" y2="360" stroke="#1C1C1F" stroke-width="0.6"/>
+  <line x1="1000" y1="320" x2="1000" y2="360" stroke="#1C1C1F" stroke-width="0.6"/>
 
   <!-- ─────────────────────────────────────────────── -->
   <!-- BOTTOM STATUS BAR — single line, sparse -->
