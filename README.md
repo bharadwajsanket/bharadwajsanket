@@ -10,7 +10,7 @@
 &nbsp;·&nbsp;
 <code>[80/http]</code> <a href="https://sanketbharadwaj.dpdns.org"><b>Portfolio</b></a>
 &nbsp;·&nbsp;
-<code>[443/tls]</code> <a href="mailto:sanketbharadwaj.dev@gmail.com"><b>Mail</b></a>
+<code>[443/tls]</code> <a href="https://sanketbharadwaj.dpdns.org/contact"><b>Mail</b></a>
 
 </div>
 
