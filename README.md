@@ -8,7 +8,7 @@
 
 <code>[22/tcp]</code> <a href="https://github.com/bharadwajsanket"><b>GitHub</b></a>
 &nbsp;·&nbsp;
-<code>[80/http]</code> <a href="https://sanketbharadwaj.vercel.app"><b>Portfolio</b></a>
+<code>[80/http]</code> <a href="https://sanketbharadwaj.dpdns.org"><b>Portfolio</b></a>
 &nbsp;·&nbsp;
 <code>[443/tls]</code> <a href="mailto:sanketbharadwaj.dev@gmail.com"><b>Mail</b></a>
 
